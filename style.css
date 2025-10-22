@@ -30,33 +30,6 @@ body {
   padding: 0 20px;
 }
 
-.edit-mode-btn {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  background: var(--primary-color);
-  color: white;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 600;
-  z-index: 1000;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-}
-
-.edit-mode-btn:hover {
-  background: var(--secondary-color);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
-}
-
-.edit-mode-btn.active {
-  background: var(--success);
-}
-
 .navbar {
   background: rgba(15, 23, 42, 0.95);
   backdrop-filter: blur(10px);
